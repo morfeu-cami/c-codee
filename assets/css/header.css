@@ -1,0 +1,45 @@
+header {
+    background: #ffc0cb;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.caixa {   
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa img {
+    max-width: 200px;
+}
+
+nav {
+    /* position: absolute; REMOVED to use flexbox */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 0 0 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4b0082; /* Indigo for better contrast */
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #db7093; /* PaleVioletRed */
+    text-decoration: none;
+    border-bottom: 2px solid #db7093;
+}

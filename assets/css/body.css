@@ -1,0 +1,10 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}

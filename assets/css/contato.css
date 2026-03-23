@@ -1,0 +1,96 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+form {
+    margin: 40px 0;
+    background: #fff5f7;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #ffc0cb;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 12px;
+    color: #4b0082;
+    font-weight: bold;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 25px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ffc0cb;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.checkbox {
+    margin: 20px 0;
+    display: inline-block !important;
+    width: auto !important;
+}
+
+select {
+    margin: 11px 0;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ffc0cb;
+    border-radius: 10px;
+}
+
+.enviar {
+    width: 100%;
+    padding: 20px;
+    background: #db7093;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all; 
+    margin-top: 20px;
+}
+
+.enviar:hover {
+    background: #4b0082;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    margin: 50px 0;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+thead {
+    background: #db7093;
+    color: #FFFFFF;
+}
+
+td, th {
+    border: 1px solid #ffc0cb;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #fff5f7;
+}

@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+    background: #4b0082; /* Indigo for a sophisticated look */
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+footer img {
+    max-width: 150px;
+}
+
+.Copyright {
+    color: #ffc0cb;
+    font-size: 14px;
+    padding: 25px 0 0;
+    font-weight: 300;
+}
